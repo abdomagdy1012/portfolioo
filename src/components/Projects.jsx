@@ -62,7 +62,7 @@ const projects = [
   {
     title: "Bird Game",
     desc: "Modern animated portfolio built with React & Tailwind.",
-    image: "/project3.png",
+    image: "images/birdGame/start.png",
     live: "https://birdgame-kappa.vercel.app/",
     github: "https://github.com/abdomagdy1012/BirdGame",
   },
