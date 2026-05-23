@@ -47,10 +47,10 @@ const projects = [
   },
   {
     title: "WareHouse Project",
-    desc: `Built a responsive single-page movie browsing app using Angular CLI with REST API integration.
-    Implemented routing, reusable components, and dynamic search and details views.
-    Focused on clean UI, performance, and modular TypeScript architecture.`,
-    image: "images/Moviesite/HomePage.PNG",
+    desc: `A warehouse management system developed using C# and SQL Server for managing inventory, 
+    products, stock movement, and warehouse operations. The system helps track stock levels, organize products,
+     and improve inventory management efficiency..`,
+    image: "images/warehouse/warehouse.png",
     github: "https://github.com/abdomagdy1012/MovieSite",
   },
 
