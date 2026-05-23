@@ -51,7 +51,7 @@ const projects = [
     products, stock movement, and warehouse operations. The system helps track stock levels, organize products,
      and improve inventory management efficiency..`,
     image: "images/warehouse/warehouse.png",
-    github: "https://github.com/abdomagdy1012/MovieSite",
+    github: "https://github.com/abdomagdy1012/Warehouse",
   },
 
 ];
