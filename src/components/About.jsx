@@ -72,7 +72,7 @@ export default function About() {
             <MagneticCard
               icon="⚡"
               title="Frontend Core"
-              desc="HTML5, CSS3, JavaScript (ES6+), TypeScript, React"
+              desc="HTML5, CSS3, JavaScript (ES6+), TypeScript, React , Angular"
             />
 
             <MagneticCard
