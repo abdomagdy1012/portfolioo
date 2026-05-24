@@ -26,7 +26,7 @@ const projects = [
     Implemented routing, reusable components, and dynamic search and details views.
     Focused on clean UI, performance, and modular TypeScript architecture.`,
     image: "images/Moviesite/HomePage.PNG",
-    live: "https://movie-site-six-teal.vercel.app/  ",
+    live: "https://movie-site-six-teal.vercel.app/",
     github: "https://github.com/abdomagdy1012/MovieSite",
   },
    {
@@ -45,6 +45,15 @@ const projects = [
     image: "images/foodordering/login.PNG",
     github: "https://github.com/Mohamedkh30/FoodOrderSystemAPI",
   },
+  {
+    title: "Chatbot Project",
+    desc: `Built a responsive AI chatbot web application using React, JavaScript, CSS, and API integration, 
+    featuring real-time messaging, dynamic conversation handling, user-friendly UI, and responsive design.`,
+    image: "images/Chatbot/chat.PNG",
+    live: "https://chatbot-rho-snowy-91.vercel.app/",
+    github: "https://github.com/abdomagdy1012/react/tree/main/chatbot-project",
+  },
+
   {
     title: "WareHouse Project",
     desc: `A warehouse management system developed using C# and SQL Server for managing inventory, 
