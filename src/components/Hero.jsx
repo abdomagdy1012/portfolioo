@@ -33,8 +33,8 @@ export default function Hero() {
         transition={{ delay: 0.3 }}
         className="text-white/60 mt-4 max-w-xl"
       >
-        Frontend Developer focused on building modern, responsive and animated
-        web applications with React & Tailwind CSS.
+        Frontend Developer specializing in Angular & React, building modern, responsive, 
+        and animated web applications using TypeScript, JavaScript, HTML, CSS, and REST API integration..
       </motion.p>
 
       {/* Buttons */}
