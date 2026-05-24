@@ -7,6 +7,8 @@ export default function ProjectCard({ project }) {
   const springX = useSpring(x, { stiffness: 150, damping: 15 });
   const springY = useSpring(y, { stiffness: 150, damping: 15 });
 
+  const isDesktop = typeof window !== "undefined" && window.innerWidth > 768;
+
   const handleMouseMove = (e) => {
     const rect = e.currentTarget.getBoundingClientRect();
 
@@ -28,16 +30,17 @@ export default function ProjectCard({ project }) {
   return (
     <motion.div
       style={{ x: springX, y: springY }}
-      onMouseMove={(e) => window.innerWidth > 768 && handleMouseMove(e)}
+      onMouseMove={isDesktop ? handleMouseMove : undefined}
       onMouseLeave={handleMouseLeave}
       className="relative group bg-white/5 border border-white/10 rounded-2xl overflow-hidden backdrop-blur-lg shadow-lg hover:shadow-purple-500/20 transition"
     >
       {/* Image */}
-      <div className="relative overflow-hidden">
+      <div className="overflow-hidden">
         <img
-  src={project.image}
-  className="w-full h-48 object-cover transition duration-300 group-hover:scale-105"
-/>
+          src={project.image}
+          alt={project.title}
+          className="w-full h-44 sm:h-48 object-cover object-top transition duration-300 group-hover:scale-105"
+        />
       </div>
 
       {/* Content */}
@@ -46,16 +49,18 @@ export default function ProjectCard({ project }) {
         <p className="text-white/60 text-sm mt-2">{project.desc}</p>
       </div>
 
-      {/*Live and links*/}
+      {/* Overlay */}
       <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition flex items-center justify-center gap-3">
-        <a
-          href={project.live}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="px-3 py-1 bg-purple-600 rounded-lg text-sm hover:scale-105 transition"
-        >
-          Live
-        </a>
+        {project.live && (
+          <a
+            href={project.live}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-3 py-1 bg-purple-600 rounded-lg text-sm hover:scale-105 transition"
+          >
+            Live
+          </a>
+        )}
 
         <a
           href={project.github}
