@@ -28,16 +28,16 @@ export default function ProjectCard({ project }) {
   return (
     <motion.div
       style={{ x: springX, y: springY }}
-      onMouseMove={handleMouseMove}
+      onMouseMove={(e) => window.innerWidth > 768 && handleMouseMove(e)}
       onMouseLeave={handleMouseLeave}
-      className="group bg-white/5 border border-white/10 rounded-2xl overflow-hidden backdrop-blur-lg shadow-lg hover:shadow-purple-500/20 transition"
+      className="relative group bg-white/5 border border-white/10 rounded-2xl overflow-hidden backdrop-blur-lg shadow-lg hover:shadow-purple-500/20 transition"
     >
       {/* Image */}
       <div className="relative overflow-hidden">
         <img
-          src={project.image}
-          className="w-full h-44 object-cover group-hover:scale-105 transition duration-300"
-        />
+  src={project.image}
+  className="w-full h-48 object-cover transition duration-300 group-hover:scale-105"
+/>
       </div>
 
       {/* Content */}
