@@ -8,7 +8,7 @@ const projects = [
         Implemented product listing, cart system, and state management with dynamic UI updates.
         Focused on clean design, user experience, and scalable component-based architecture.`,
     image: "images/Amazon/checkout.png",
-    live: "https://amazonproject-lyart.vercel.app/",
+    live: "https://amazonproject-abdomagdy.vercel.app/",
     github: "https://github.com/abdomagdy1012/Amazon-Project",
   },
   {
