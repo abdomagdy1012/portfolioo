@@ -20,7 +20,7 @@ const projects = [
     live: "https://birdgame-kappa.vercel.app/",
     github: "https://github.com/abdomagdy1012/BirdGame",
   },
-   {
+  {
     title: "Movies Website",
     desc: `Built a responsive single-page movie browsing app using Angular CLI with REST API integration.
     Implemented routing, reusable components, and dynamic search and details views.
