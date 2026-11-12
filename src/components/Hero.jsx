@@ -20,7 +20,7 @@ export default function Hero() {
   </h1>
 
   <p className="text-purple-400 text-xl md:text-3xl font-semibold">
-    FrontEnd Developer
+    Full Stack Developer
   </p>
 
 </div>
@@ -33,8 +33,7 @@ export default function Hero() {
         transition={{ delay: 0.3 }}
         className="text-white/60 mt-4 max-w-xl"
       >
-        Frontend Developer specializing in Angular & React, building modern, responsive, 
-        and animated web applications using TypeScript, JavaScript, HTML, CSS, and REST API integration..
+        Full Stack Developer specializing in C#, ASP.NET Core Web API, SQL Server, Angular and React. I build scalable, database-driven web applications, from the API and data layer to a responsive front end, and I enjoy owning features end to end.
       </motion.p>
 
       {/* Buttons */}

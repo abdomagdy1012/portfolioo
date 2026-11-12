@@ -53,17 +53,18 @@ export default function About() {
           {/* Text */}
           <div className="text-white/70 leading-relaxed">
             <p className="mb-4">
-              I’m a frontend developer focused on crafting web experiences that
-              feel fast, smooth, and alive.
+              I'm a full stack developer focused on building web applications that
+              feel fast, reliable, and alive, from the database to the interface.
             </p>
             <p className="mb-4">
-              I don’t just build UI — I refine interactions, optimize
-              performance, and care about the small details that users don’t
-              notice consciously but always feel.
+                I don't just build UI or APIs. I design clean data layers, write
+                business logic that holds up, and refine the small details, from
+                smooth interactions to optimized queries, that users don't notice
+                consciously but always feel.
             </p>
             <p>
-              I aim to create interactive digital experiences that feel fast,
-              intuitive, and alive.
+              I aim to create end-to-end digital experiences that are fast,
+              intuitive, and built to scale.
             </p>
           </div>
 
@@ -76,34 +77,41 @@ export default function About() {
             />
 
             <MagneticCard
-              icon="🎨"
-              title="UI & Styling"
-              desc="Tailwind CSS, Bootstrap, Responsive Design, Font Awesome"
-            />
+  icon="⚙️"
+  title="Backend"
+  desc="C#, .NET Core, ASP.NET Core Web API, Entity Framework, LINQ"
+/>
 
-            <MagneticCard
-              icon="🔗"
-              title="APIs & Data"
-              desc="REST APIs, Web APIs, AJAX, JSON, Postman"
-            />
+<MagneticCard
+  icon="🗄️"
+  title="Database"
+  desc="SQL Server, Database Design, Database-Driven Business Logic"
+/>
 
-            <MagneticCard
-              icon="🧠"
-              title="Architecture"
-              desc="MVC Pattern, OOP, React Context API"
-            />
 
-            <MagneticCard
-              icon="🚀"
-              title="Tools & Deployment"
-              desc="Git & GitHub, Web Hosting, API Testing"
-            />
+<MagneticCard
+  icon="🔗"
+  title="APIs & Integration"
+  desc="RESTful APIs, Web APIs, AJAX, JSON, Postman"
+/>
 
-            <MagneticCard
-              icon="⚙️"
-              title="Mindset"
-              desc="Clean code, performance, scalable UI"
-            />
+<MagneticCard
+  icon="🧠"
+  title="Architecture"
+  desc="MVC Pattern, OOP, React Context API"
+/>
+
+<MagneticCard
+  icon="🚀"
+  title="Tools & Deployment"
+  desc="Git & GitHub, Unit Testing, Web Hosting, API Testing"
+/>
+
+<MagneticCard
+  icon="💡"
+  title="Mindset"
+  desc="Clean code, performance, scalable end-to-end solutions"
+/>
           </div>
         </div>
       </section>
